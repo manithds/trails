@@ -23,12 +23,12 @@ function Header (){
     return (
             <header className="sticky top-0 bg-white">
                 <div className="flex w-full p-6 items-center">
-                <Image className="hover:cursor-pointer"
+                <Image 
                 src='https://svgshare.com/i/i0T.svg'
                 height={50}
                 width={120}
                 onClick={() => router.push("/")}
-                className="cursor-pointer"
+                className="hover:cursor-pointer"
                 />
 
                 <form className="flex flex-grow px-6 py-3 ml-10 mr-5 border-gray-200 rounded-full
