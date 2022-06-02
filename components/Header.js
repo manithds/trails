@@ -35,6 +35,7 @@ function Header (){
                  shadow-lg max-w-3xl items-center">
                     <input ref={searchInputRef} className="flex-grow w-full
                     focus:outline-none" type="text">
+                    defaultValue={router.query.term}
                     </input>
                     <XIcon className="h-7 sm:mr-3 text-gray-500 cursor-pointer transition duration-100
                     transform hover:scale-110"
