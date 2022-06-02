@@ -24,7 +24,7 @@ function Header (){
             <header className="sticky top-0 bg-white">
                 <div className="flex w-full p-6 items-center">
                 <Image 
-                src='https://svgshare.com/i/hx_.svg'
+                src='https://svgshare.com/i/i0S.svg'
                 height={40}
                 width={120}
                 onClick={() => router.push("/")}
@@ -43,13 +43,13 @@ function Header (){
                     
                     onClick={() => (searchInputRef.current.value = "")}
                     />
-                    <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-blue-500
+                    <MicrophoneIcon className="mr-3 h-6 hidden sm:inline-flex text-[#564ED1]
                     border-l-2 pl-4 border-gray-300 " />
-                    <SearchIcon className="h-6 text-blue-500 hidden sm:inline-flex" />
+                    <SearchIcon className="h-6 text-[#564ED1] hidden sm:inline-flex" />
                     <button hidden type="submit" onClick={search}>Search</button>
                 </form>
-                <UserIcon className="ml-auto h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer"></UserIcon>
-                <Avatar className="ml-auto" url='https://i.ibb.co/SwC1b2Q/avatardefault-92824.png' />
+                <UserIcon className="ml-auto h-10 w-10 p-2 rounded-full hover:bg-[#DBDAF6] cursor-pointer"></UserIcon>
+                
                 </div>
 
 
