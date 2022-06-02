@@ -23,9 +23,9 @@ function Header (){
     return (
             <header className="sticky top-0 bg-white">
                 <div className="flex w-full p-6 items-center">
-                <Image 
-                src='https://svgshare.com/i/i0S.svg'
-                height={40}
+                <Image className="hover:cursor-pointer"
+                src='https://svgshare.com/i/i0T.svg'
+                height={50}
                 width={120}
                 onClick={() => router.push("/")}
                 className="cursor-pointer"
