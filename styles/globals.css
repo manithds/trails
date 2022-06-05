@@ -5,12 +5,12 @@
 @layer components {
 
 .body {
-  @apply bg-[#FAFAFA];
+  @apply bg-[#023430];
 }
 
   .btn{
-    @apply bg-[#000000] p-3 rounded-md text-sm hover:bg-[#ffffff] hover:ring-black  
-    active:ring-black hover:shadow-md text-white hover:text-black hover:outline-black transition-colors duration-200;
+    @apply bg-[#00EC64] p-3 rounded-md text-sm hover:bg-[#ffffff] hover:ring-black  
+    active:ring-black hover:shadow-md text-[#023430] hover:text-black hover:outline-black transition-colors duration-200;
   }
 
   .link{
